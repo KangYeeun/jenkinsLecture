@@ -82,7 +82,7 @@ pipeline {
                 aws s3 sync ./ s3://jenkinsyeeun
                 '''
             }
-          }
+          }//
 
           post {
               // If Maven was able to run the tests, even if some of the test
